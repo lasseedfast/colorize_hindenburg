@@ -13,15 +13,15 @@ each recording.
 2. Upload your Hindenburg project file (ending with *.nhsx*) below to add the same color
 to other clips originating from the same recording.
 3. Download the modified file *and put it in the same folder as your original project file*.  
-:red[No data is saved anywhere]. Made by [Lasse Edfast](https://lasseedfast.se). You need to be using Hindenburg 2.0 to use colors. 
+**No data is saved anywhere**. Made by [Lasse Edfast](https://lasseedfast.se). You need to be using Hindenburg 2.0 to use colors. 
 """
 )
 
-# with st.expander(label='Example'):
-#     c1, c2 = st.columns(2)
-#     with c1:
-
-
+with st.expander(label='Unclear? See an example here.', expanded=False):
+    st.write('*Put colors on clips like this...*')
+    st.image('before.png')
+    st.write('*...and you get a file that looks like this*')
+    st.image('after.png')
 
 # Ask for file.
 uploaded_file = st.file_uploader(
