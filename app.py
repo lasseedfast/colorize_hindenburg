@@ -10,13 +10,18 @@ st.markdown(
     """
 1. Set colors for a few clips on your timeline, ideally at least one clip from
 each recording. 
-2. Upload your Hindenburg project file (ending with *nhsx*) to add the same color
+2. Upload your Hindenburg project file (ending with *.nhsx*) below to add the same color
 to other clips originating from the same recording.
 3. Download the modified file *and put it in the same folder as your original project file*.  
-
-No data is saved anywhere. Made by [Lasse Edfast](https://lasseedfast.se).
+:red[No data is saved anywhere]. Made by [Lasse Edfast](https://lasseedfast.se). You need to be using Hindenburg 2.0 to use colors. 
 """
 )
+
+# with st.expander(label='Example'):
+#     c1, c2 = st.columns(2)
+#     with c1:
+
+
 
 # Ask for file.
 uploaded_file = st.file_uploader(
