@@ -4,7 +4,7 @@ from time import sleep
 import streamlit as st
 from bs4 import BeautifulSoup
 
-st.title("Colorize your Hindenburg project")
+st.title(":green[Colorize] your :red[Hindenburg] project")
 
 st.markdown(
     """
