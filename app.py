@@ -8,10 +8,10 @@ st.title("Colorize your Hindenburg project")
 
 st.markdown(
     """
-- Set colors for a few clips on your timeline, idealy at least one clip from
-each recording.  
-- Upload your Hindenburg projet file (ending with *nhsx*) to add the same color
-to other clips origination from the same recording.
+- Set colors for a few clips on your timeline, ideally at least one clip from
+each recording. 
+- Upload your Hindenburg project file (ending with *nhsx*) to add the same color
+to other clips originating from the same recording.
 - Download the modified file *and put it in the same folder as your original project file*.
 """
 )
