@@ -14,7 +14,7 @@ each recording.
 to other clips originating from the same recording.
 3. Download the modified file *and put it in the same folder as your original project file*.  
 
-No data is saved anywhere. Made by [Lasse Edfast](https://lasseedfast.se)
+No data is saved anywhere. Made by [Lasse Edfast](https://lasseedfast.se).
 """
 )
 
