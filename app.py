@@ -45,7 +45,7 @@ def colorize(soup):
             try:
                 with s:
                     st.markdown(f':green[{region["Name"]}]')
-                    sleep(1/(n_regions/3))
+                    sleep(1/(n_regions))
             except KeyError:
                 pass
             new_region_tag = region
@@ -65,7 +65,7 @@ def colorize(soup):
         try:
             with s:
                 st.markdown(f':green[{region["Name"]}]')
-                sleep(1/(n_regions/3))
+                sleep(1/(n_regions))
         except KeyError:
             pass
         new_track_tag = track
